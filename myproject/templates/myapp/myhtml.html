@@ -1,0 +1,90 @@
+
+<html>
+<head>
+<title>HTML Table</title>
+ {% load static %}
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  
+  <img src="{% static 'images/dora.jpg' %}" alt="My image">
+
+</head>
+<body>
+  <h1> SCHOOL REGISTRATION FORM</h1>
+
+  <table border="1" align="center" width="400" >
+  <tr>
+   <th>FIRST NAME</th>
+   <td> <input type="text"></td>
+  </tr>
+   <tr>
+   <th>LAST NAME</th>
+   <td> <input type="text"></td>
+  </tr>
+  <tr>
+   <th>DATE</th>
+   <td> <input type="DOBt"></td>
+  </tr>
+  <tr>
+  <th> ADDRESS</th>
+  <td><textarea rows="8" cols="20"></textarea></td>
+  </tr> 
+  <tr>
+   <th>EMAIL</th>
+   <td> <input type="Email"></td>
+  </tr>
+  <tr>
+   <th>MOBILE NUMBER</th>
+   <td> <input type="tel"  pattern = "[0-9]{10}" maxlength= "10"></td>
+  </tr>
+  <tr>
+   <th>GENDER</th>
+   <td>
+  <input type="radio" id="radio" name="gender" value="female">
+  <label for="radio">female</label>
+  <input type="radio" id="radio" name="gender" value="male">
+  <label for="radio">male</label>
+  </td>
+  </tr>
+  
+  <tr>
+  <th>COURSES APPLIED FOR</th>
+  <td>
+  <select>
+  <option selected height="30">BCA</option>
+  <option>B.COM</option>
+  <option>BSC</option>
+  <option>BA</option>
+  </select>
+  </td>
+  </tr>
+  <tr>
+  <th>HOBBIES</th>
+  <td>
+  <input type="checkbox" name="l1">
+  <label for="checkbox">Dancing</label>
+  <input type="checkbox" name="l2">
+  <label for="checkbox">Playing</label>
+  <input type="checkbox" name="l3">
+  <label for="checkbox">Singing</label>
+  </td>
+  </tr>
+  <tr>
+  <th> RESUME</th>
+  <td><input type="file"></td>
+  </tr>
+  <tr>
+  <td>
+  <center>
+  <input type="submit" id="submit">
+  </td>
+  </tr>
+  </table>
+  </body>
+  <br><br><br><br>
+  
+  <center>
+  <button type="button" class="btn btn-info">5</button>
+  
+  </html>
+  
+  

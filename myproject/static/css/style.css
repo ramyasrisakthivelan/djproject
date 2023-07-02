@@ -1,0 +1,23 @@
+.box {
+    background-color: rgb(245, 8, 16);
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid rgb(71, 8, 243);
+  }
+  body {
+    background-image: url('/static/images/dora.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  h1 {
+    color: rgb(215, 21, 21);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
